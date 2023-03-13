@@ -1,7 +1,10 @@
 body{
+     
     background-color: rgb(65, 65, 65);
     color: rgb(207, 207, 207);
     text-align:center ;
+    align-items: center;
+
 }
 a{
     color: yellow;
@@ -15,6 +18,12 @@ header{
 }
 .subtitle-header{
     font-size: small;
+}
+.nav-header{
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: space-between;
 }
 /* .title-header{
     border:1px solid lime ;
