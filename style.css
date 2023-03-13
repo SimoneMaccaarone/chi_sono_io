@@ -1,5 +1,39 @@
 body{
     background-color: rgb(65, 65, 65);
-    color: white;
-    text-align: ;
+    color: rgb(207, 207, 207);
+    text-align:center ;
 }
+a{
+    color: yellow;
+}
+header{
+    border:1px solid lime ;
+    /* position: fixed; */
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.subtitle-header{
+    font-size: small;
+}
+/* .title-header{
+    border:1px solid lime ;
+    align-items: center;
+
+}
+
+.subtitle-header{
+    border: 1px solid lime;
+    align-items: center;
+    
+}
+
+.nav-header{
+    border: 1px solid lime;
+    align-items: center;
+
+} */
+
+
+
+
