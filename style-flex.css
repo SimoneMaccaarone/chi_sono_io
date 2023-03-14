@@ -12,7 +12,7 @@ a {
     color: yellow;
 }
 header{
-    /* border:3px solid lime ; */
+    border:3px solid lime ;
     /* position: fixed; */
     align-items: center;
     flex-direction: column;
@@ -28,9 +28,9 @@ header{
     justify-content: space-between;
 }
 
-/* ---------- FLEX SECTION ---------- 
+/*---------- FLEX SECTION ---------- */
 
- *{
+*{
     box-sizing: border-box;
 }
 
@@ -39,7 +39,8 @@ header{
     height: 100vh;
     width: 100vw;
     display: flex;
-    flex-direction: column;  
+    flex-direction: column; 
+}
 
 
 .body-flex .html-flex{
@@ -72,9 +73,14 @@ header{
 
 }
 
+
+
+
+/*-------      MAIN     ----------*/
+
 .main-flex{
     border: 3px solid rgb(40, 230, 255);
-    flex-grow: 5;
+    flex-grow: 2;
     display: flex;
     justify-content: last baseline;
     
@@ -88,9 +94,28 @@ header{
     flex-basis: 0;
 
 }
+
+.grossa-scatola{
+    border: 5px dotted;
+    flex-grow: 5;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-basis: 0;
+
+}
+
+.container-content-top{
+    border: 6px solid rgb(136, 255, 121);
+    justify-content: space-between;
+    display: flex;
+    flex-grow: 1;
+    flex-basis: 0;
+    
+}
+
 .content1{
     border: 3px solid salmon;
-    flex-grow:;
+    flex: grow 1;
     display: flex;
     flex-direction: row;
 }
@@ -98,6 +123,8 @@ header{
 .content2{
     border: 3px solid rgb(74, 54, 52);
     flex-grow: 1;
+    display: flex;
+    flex-direction: row;
 
 }
 
@@ -105,7 +132,7 @@ header{
     border: 3px solid rgb(0, 41, 174);
     flex-grow: 2;
     flex-direction: column;
-    align-self: flex-endS;
+
 }
 
 
@@ -121,7 +148,7 @@ header{
 
 
 
-
+/*-------      FOOTER     ----------*/
 
 .footer-flex{
     border: 1px solid lime;
@@ -129,4 +156,4 @@ header{
 
 
 
- */
+
