@@ -135,7 +135,7 @@ header{
 
 }
 
-
+340 7148179
 
 .nav-right{
     border: 3px solid violet;
@@ -144,6 +144,12 @@ header{
     flex-direction: column;
     justify-content: space-between;
     flex-basis: 0;
+}
+
+.buttom-section{
+    border: 4px solid snow;
+    display: flex;
+
 }
 
 
