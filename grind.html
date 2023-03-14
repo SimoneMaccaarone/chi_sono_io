@@ -2,9 +2,25 @@
 <html lang="it">
 <head>
     <style>
+
+
+        @media screen and (max-width: 500px) {
+            .item1 {grid-area: 1/ span 3 / 2 / 4 ;}
+            .item2 {grid-area: 3 / 3 / 4 / 4 ;}
+            .item3 {grid-area: 1 / 2 / 3 / 4 ;}
+            .item4 {grid-area: 2 / 2 /span 2 / 3 ;}
+            .item5 {grid-area: 3 / 1 / 4 / 2 ;}
+            .item6 {grid-area: 2 / 3 / 3 / 4 ;}
+
+                    
+        }
+
+
+
+
         .grid-container {
             display: grid;
-            grid-template-columns: auto auto auto auto auto auto;
+            grid-template-columns: auto auto auto;
             background-color: aquamarine;
             padding: 10px;
             align-content: end  ;
@@ -22,10 +38,8 @@
             
             
         }
-        
-        .item8{                             /*OCCUOPA (in column o row) FINO AD...*/
-            grid-area: 3/ 3;
-        }
+    
+
     </style>
 
     <meta charset="UTF-8">
@@ -38,28 +52,23 @@
 
 
 
+<div class="mobile">
 
-<!---------------------------      HEADER      ----------------------------------------->
-<header>
-    <div class="title-header">
-        <h1><b>Simone Maccarone</b></h1>
-    </div>
+    <!---------------------------      HEADER      ----------------------------------------->
+    <header>
+        <div class="title-header">
+            <h1><b>Simone Maccarone</b></h1>
+        </div>
         <div class="subtitle-header">
             <h2>Apprendista programmatore</h2>
         </div>
         <hr>
-    <nav class="nav-header">
-        <h3 class="nav-pag">
-            <a href="./index.html">Home</a>    
-       </h3>
+        <nav class="nav-header">
+            <h3 class="nav-pag">
+                <a href="./index.html">Home</a>    
+            </h3>
     </nav>
 </header>
-
-
-
-
-
-
 
 
 <!----------------------------     MAIN       ----------------------------------------->
@@ -71,25 +80,15 @@
         <div class="item4">4</div>
         <div class="item5">5</div>
         <div class="item6">6</div>
-        <div class="item7">7</div>
-        <div class="item8">8</div>
-        <div class="item9">9</div>
-        <div class="item10">10</div>
-        <div class="item11">11</div>
-        <div class="item12">12</div>
-        <div class="item13">13</div>
-        <div class="item14">14</div>
-        <div class="item15">15</div>
-        <div class="item16">16</div>
     </div>
     
-
-
-
-
-
-
-
+    
+    
+    
+    
+    
+    
+    
     <!----------------------------     FOOTER       ---------------------------------->
     <footer class="footer-flex">
         <hr> <br>
@@ -101,4 +100,5 @@
         </cite>
     </footer>
 </body>
+</div>
 </html>
