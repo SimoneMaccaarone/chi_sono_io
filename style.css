@@ -7,10 +7,9 @@ body{
 }
 
 
+a {    color: lime;     }
+footer a{    color: yellow;     }
 
-a {
-    color: yellow;
-}
 header{
     /* border:3px solid lime ; */
     /* position: fixed; */
@@ -18,15 +17,26 @@ header{
     flex-direction: column;
     justify-content: center;
 }
-.subtitle-header{
-    font-size: small;
-}
+
+
+.subtitle-header{    font-size: small;      }
+
+
 .nav-header{
     display: flex;
     flex-grow: 3;
     flex-direction: column;
     justify-content: space-between;
 }
+
+
+
+
+
+
+
+
+
 
 /* ---------- FLEX SECTION ---------- 
 

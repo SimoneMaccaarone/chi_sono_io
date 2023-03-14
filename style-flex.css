@@ -78,7 +78,7 @@ header{
 
 /*-------      MAIN     ----------*/
 
-.main-flex{
+.main-flex1{
     border: 3px solid rgb(40, 230, 255);
     flex-grow: 2;
     display: flex;
@@ -144,9 +144,10 @@ header{
     flex-basis: 0;
 }
 
-.buttom-section{
-    border: 4px solid snow;
+.bottom-section{
+    border: 4px solid blue;
     display: flex;
+    flex-direction:r;
 
 }
 
