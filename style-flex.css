@@ -1,6 +1,6 @@
 body{
      
-    background-color: rgb(65, 65, 65);
+    background-color: rgb(224, 57, 57);
     color: rgb(207, 207, 207);
     text-align:center ;
     align-items: center;
@@ -9,7 +9,7 @@ body{
 
 
 a {
-    color: yellow;
+    color: rgb(1, 152, 69);
 }
 header{
     border:3px solid lime ;
